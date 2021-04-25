@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -15,14 +10,13 @@
   height: 80px;
   position: fixed;
   width: 100%;
+  z-index: 10;
 
 }
 
 .header-wrapper {
   height: 100%;
   margin: 0 auto;
-  /* width: 60%; */
-  /* box-sizing: border-box; */
   padding: 15px 0 ;
 }
 .header-icon {
@@ -35,12 +29,17 @@
 }
 
 .contact-button {
-  background-color: #74cfae;
+background-color: #74cfae;
 float: right;
 color: #fff;
 font-size: 12px;
 padding: 14px 12px;
 text-decoration: none;
+}
+
+.contact-button:hover {
+  color: #333;
+  transition: all 0.3s;
 }
 
 .theme {
@@ -80,7 +79,6 @@ text-decoration: none;
 .about-wrapper {
   margin: 0 auto;
   padding-top: 50px;
-  /* width: 80%; */
   text-align: center;
 }
 .phone-img {
@@ -103,7 +101,7 @@ text-decoration: none;
 }
 
 .work-section {
-  background-color: #fff;
+  background-color:#f2f2f2;
   width: 100%;
   
 }
@@ -118,8 +116,33 @@ text-decoration: none;
   margin-bottom: 40px;
 }
 
+.work-picture {
+  margin-bottom: 90px;
+  height: 680px;
+}
+
+.work-picture img {
+  display: block;
+  float: left;
+  margin-left: 100px;
+  opacity: 0.7;
+  z-index: 5;
+}
+
+.work-picture img:hover {
+  opacity: 1.0;
+  transition: all 0.3s;
+
+}
+
+.work-picture img:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.work-picture img:nth-child(n+4) {
+  margin-top: 80px;
+}
 .contact-email {
-  padding-top: 90px;
   display: flex;
   width: 720px;
   margin: 0 auto;
@@ -171,6 +194,8 @@ text-decoration: none;
   padding-top: 15px;
 }
 
+
+
 .sns {
   background-color: #f2f2f2;
   width: 100%;
@@ -178,42 +203,27 @@ text-decoration: none;
 }
 
 .sns-wrapper a{
-  background-color: #f2f2f2;
   color: #74cfae;
-  /* display: block; */
   text-decoration: none;
-  cursor: pointer;
-  padding:30px 70px ;
-}
-
-.sns-wrapper a {
-  background-color: #fff;
-}
-.sns-content {
-  display: flex;
-  width: 800px;
-  margin: 0 auto;
   
-
+  
 }
 
 .icon-list {
-  background-color:#c0c0c0;
+  cursor: pointer;
+  display: inline-block;
   list-style: none;
-  
-  
-  
+  padding:30px 78px;
 }
 
+.icon-list:hover {
+  background-color: #fff;
+}
 .footer {
   background-color: #74cfae;
   width: 100%;
 }
 
-.footer-wrapper {
-  /* float: right; */
-  
-}
 .footer-text {
   color: #fff;
   font-size: 12px;
