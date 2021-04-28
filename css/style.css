@@ -91,6 +91,7 @@ text-decoration: none;
 }
 .about-title {
   color: #fff;
+  font-family: raleway;
   font-size: 24px;
   margin-bottom: 35px;
 }
@@ -112,6 +113,7 @@ text-decoration: none;
 }
 
 .work-title {
+  font-family: Raleway;
   font-size: 24px;
   margin-bottom: 40px;
 }
