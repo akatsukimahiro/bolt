@@ -5,13 +5,13 @@
   margin: 0 auto;
   text-align: center;
 }
+
 .header {
   background-color: #fff;
   height: 80px;
   position: fixed;
   width: 100%;
   z-index: 10;
-
 }
 
 .header-wrapper {
@@ -53,8 +53,7 @@ text-decoration: none;
 .theme {
   background-color: #f2f2f2;
   text-align: center;
-  padding: 325px 0 250px 0 ;
-  
+  padding: 325px 0 250px 0 ; 
 }
 
 .theme-wrapper {
@@ -66,16 +65,14 @@ text-decoration: none;
   font-size: 90px;
   font-weight: 700;
   margin-bottom: 20px;
-  
 }
 
 .theme-sub-name {
   color: #c0c0c0;
   font-size: 30px;
-
 }
 
-.about{
+.about {
   background-color: #74cfae;
   width: 100%;
 }
@@ -85,14 +82,17 @@ text-decoration: none;
   padding-top: 50px;
   text-align: center;
 }
+
 .phone-img {
   display: inline-block;
 }
+
 .about-content {
   float: right;
   margin-top: 25px;
   width: 750px;
 }
+
 .about-title {
   color: #fff;
   font-family: raleway;
@@ -105,17 +105,15 @@ text-decoration: none;
   font-size: 20px;
   line-height: 30px;
   margin: 0 auto; 
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .work-section {
   background-color:#f2f2f2;
   width: 100%;
-  
 }
 
-.work-wrapper{
+.work-wrapper {
   padding: 60px 0 70px 0;
   text-align: center;
 }
@@ -139,7 +137,6 @@ text-decoration: none;
 .work-picture img:hover {
   opacity: 1.0;
   transition: all 0.3s;
-
 }
 
 .work-picture img:nth-child(3n+1) {
@@ -149,12 +146,12 @@ text-decoration: none;
 .work-picture img:nth-child(n+4) {
   margin-top: 80px;
 }
+
 .contact-email {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-top: 90px;
-  
+  margin-top: 90px;  
 }
 
 .work-text {
@@ -179,7 +176,6 @@ text-decoration: none;
 
 .skill-wrapper {
   padding: 70px 0 100px 0;
-  
 }
 
 .skill-title {
@@ -191,6 +187,7 @@ text-decoration: none;
 .circle-wrapper {
   display: flex;
 }
+
 .skill-circle {
   margin-left: 180px;
 }
@@ -201,19 +198,15 @@ text-decoration: none;
   padding-top: 15px;
 }
 
-
-
 .sns {
   background-color: #f2f2f2;
   width: 100%;
   padding: 200px 0;
 }
 
-.sns-wrapper a{
+.sns-wrapper a {
   color: #74cfae;
   text-decoration: none;
-  
-  
 }
 
 .icon-list {
@@ -226,6 +219,7 @@ text-decoration: none;
 .icon-list:hover {
   background-color: #fff;
 }
+
 .footer {
   background-color: #74cfae;
   width: 100%;
@@ -269,8 +263,7 @@ text-decoration: none;
     margin-left: 0;
     opacity: 0.7;
     text-align: center;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
   }
   
   .work-picture img:nth-child(3n+1) {
@@ -296,13 +289,8 @@ text-decoration: none;
   }
 
   .email-button {
-    /* display: block; */
     margin:40px 0 0 0; 
   }
-
-  /* .skill-wrapper {
-    margin: 0 auto;
-  } */
 
   .circle-wrapper {
     display: block;
@@ -333,7 +321,7 @@ text-decoration: none;
     font-size: 80px;
   }
 
-  .work-picture img{  
+  .work-picture img{
     width: 500px;
   }
 
