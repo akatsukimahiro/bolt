@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body {
+  font-family: Lato;
+}
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -8,7 +11,6 @@
 
 .header {
   background-color: #fff;
-  height: 80px;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -78,13 +80,16 @@ text-decoration: none;
 }
 
 .about-wrapper {
+  display: flex;
+  justify-content:flex-end;
   margin: 0 auto;
   padding-top: 50px;
   text-align: center;
 }
 
-.phone-img {
+.phone-img img{
   display: inline-block;
+  vertical-align: bottom;
 }
 
 .about-content {
@@ -115,7 +120,7 @@ text-decoration: none;
 
 .work-wrapper {
   padding: 60px 0 70px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .work-title {
@@ -127,23 +132,24 @@ text-decoration: none;
 .work-picture {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.work-picture img {
-  margin-left: 100px;
+.img-box {
   opacity: 0.7;
-}
-
-.work-picture img:hover {
-  opacity: 1.0;
   transition: all 0.3s;
+  margin-left: 100px;
 }
 
-.work-picture img:nth-child(3n+1) {
+.img-box:hover {
+  opacity: 1.0;
+}
+
+.img-box:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.work-picture img:nth-child(n+4) {
+.img-box:nth-child(n+4) {
   margin-top: 80px;
 }
 
@@ -151,7 +157,7 @@ text-decoration: none;
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-top: 90px;  
+  margin-top: 90px;
 }
 
 .work-text {
@@ -162,11 +168,16 @@ text-decoration: none;
 .email-button {
   background-color: #74cfae;
   color: #fff;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 12px;
   padding: 14px 20px;
   margin-left: 90px;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+.email-button:hover {
+  color: #333; 
 }
 
 .skill {
@@ -186,10 +197,15 @@ text-decoration: none;
 
 .circle-wrapper {
   display: flex;
+  justify-content: center;
 }
 
 .skill-circle {
   margin-left: 180px;
+}
+
+.skill-circle:first-child {
+  margin-left: 0;
 }
 
 .skill-circle p {
@@ -214,6 +230,7 @@ text-decoration: none;
   display: inline-block;
   list-style: none;
   padding:30px 78px;
+  transition: all 0.3s;
 }
 
 .icon-list:hover {
