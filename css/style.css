@@ -148,6 +148,7 @@ text-decoration: none;
 }
 
 .img-box {
+  display: inline-block;
   opacity: 0.7;
   transition: all 0.3s; 
 }
@@ -227,21 +228,17 @@ text-decoration: none;
   padding: 200px 0;
 }
 
-.sns-wrapper a {
+.icon-box {
   color: #74cfae;
-  display: block;
-  text-decoration: none;
-}
-
-.icon-list {
   cursor: pointer;
   display: inline-block;
   list-style: none;
-  padding:30px 78px;
+  padding:30px 0;
   transition: all 0.3s;
+  width: 185px;
 }
 
-.icon-list:hover {
+.icon-box:hover {
   background-color: #fff;
 }
 
@@ -311,6 +308,10 @@ text-decoration: none;
 
   .circle-wrapper {
     display: block;  
+  }
+
+  .skill {
+    width: 100%;
   }
 
   .skill-circle {
