@@ -88,7 +88,7 @@ text-decoration: none;
   text-align: center;
 }
 
-.phone-img img{
+.phone-img img {
   display: inline-block;
   vertical-align: bottom;
 }
@@ -254,7 +254,7 @@ text-decoration: none;
   text-align: right;
 }
 
-@media(max-width:1199px){
+@media(max-width:1199px) {
   .inner {
     margin: 0 auto;
     width: 97%;
@@ -288,7 +288,7 @@ text-decoration: none;
     margin-top: 0;
   }
 
-  .work-picture li:nth-child(4){
+  .work-picture li:nth-child(4n){
     margin-top: 80px;
   }
 
@@ -334,18 +334,23 @@ text-decoration: none;
     padding: 240px 0 130px 0;
   }
   
-  .theme-name{
-    font-size: 80px;
-  }
-
   .sns {
     padding: 50px 0;
   }
 
-  .icon-list {
+  .sns-wrapper {
+    width: 100%;
+  }
+
+  .icon-content {
     display: flex;
     flex-direction: column;
-    margin: 0 15px;
+    margin:0 15px;
+  }
+
+  .icon-box {
+    text-decoration: none;
+    width: 100%;   
   }
 
   .fa-bars {
