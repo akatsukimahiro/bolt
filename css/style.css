@@ -288,7 +288,7 @@ text-decoration: none;
     margin-top: 0;
   }
 
-  .work-picture li:nth-child(4n){
+  .work-picture li:nth-child(3n+4){
     margin-top: 80px;
   }
 
