@@ -229,6 +229,7 @@ text-decoration: none;
 }
 
 .icon-box {
+  box-sizing: border-box;
   color: #74cfae;
   cursor: pointer;
   display: inline-block;
