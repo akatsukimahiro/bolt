@@ -226,6 +226,11 @@ text-decoration: none;
   background-color: #f2f2f2;
   width: 100%;
   padding: 200px 0;
+  
+}
+
+.icon-content {
+ letter-spacing: -.4em;
 }
 
 .icon-box {
@@ -233,6 +238,7 @@ text-decoration: none;
   color: #74cfae;
   cursor: pointer;
   display: inline-block;
+  letter-spacing: normal;
   list-style: none;
   padding:30px 0;
   transition: all 0.3s;
