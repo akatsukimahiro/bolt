@@ -291,12 +291,9 @@ main {
   }
 
   .about-content {
+    padding-top: 20px;
     margin: 0 auto;
     width: auto;
-  }
-
-  .about-title {
-    margin-top: 20px;
   }
 
   .work-picture {
@@ -328,10 +325,6 @@ main {
   }
 
   .email-box {
-    margin-left: 0;
-  }
-
-  .email-button {
     margin:40px 0 0 0; 
   }
 
@@ -360,7 +353,7 @@ main {
   }
 
   .theme-wrapper {
-    padding: 220px 0 130px 0;
+    padding: 160px 0 130px 0;
   }
   
   .sns-wrapper {
@@ -376,7 +369,7 @@ main {
 
   .icon-box {
     text-decoration: none;
-    width: 100%;   
+    width: 100%;
   }
 
   .fa-bars {
